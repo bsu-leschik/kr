@@ -140,23 +140,25 @@ vector<Book *> Shop::FindBooksByAuthorLastName(string last_name) {
 
 vector<long long> Shop::DeleteBooks(shared_ptr<Book> book) {
     vector<long long int> isbns;
-    Author* author = book->authors()[0];//удаляются книжки только одного автора
+    Author *author = book->authors()[0];//удаляются книжки только одного автора
     for (int i = 0; i < authors_.size(); ++i) {
-        if (authors_[i] == author){
-            authors_.erase(i);
+        if (authors_[i] == author) {
+            for (int j = i; j < authors_.size() - 1; ++j) {
+                authors_[j] = authors_[j + 1];
+            }
+            authors_.pop_back();
+            break;
         }
     }
-    vector<Book*> books = FindBooksByAuthorLastName(author->last_name());
+    vector<Book *> books = FindBooksByAuthorLastName(author->last_name());
 
-    for (Book* bookI : books) {
+    for (Book *bookI: books) {
         isbns.push_back(bookI->isbn());
     }
 
-    for (Book* bookI : books) {
-
+    for (Book *bookI: books) {
+        books_.erase(bookI->isbn());
     }
-
-
 
     return isbns;
 }
