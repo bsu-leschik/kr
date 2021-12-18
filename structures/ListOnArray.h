@@ -1,5 +1,4 @@
-#ifndef DATASTRUCT_LISTONARRAY_H
-#define DATASTRUCT_LISTONARRAY_H
+#pragma once
 
 template<typename T>
 class ListOnArr {
@@ -191,4 +190,3 @@ public:
     }
 };
 
-#endif //DATASTRUCT_LISTONARRAY_H

@@ -1,5 +1,4 @@
-#ifndef STACK_NODES__LISTONNODES_H_
-#define STACK_NODES__LISTONNODES_H_
+#pragma once
 
 template<typename T>
 struct Node {
@@ -125,4 +124,4 @@ class ListOnNodes {
   }
 };
 
-#endif //STACK_NODES__LISTONNODES_H_
+

@@ -1,5 +1,4 @@
-#ifndef DATASTRUCT_FORWARDLISTONARRAY_H
-#define DATASTRUCT_FORWARDLISTONARRAY_H
+#pragma once
 
 #include <stdexcept>
 
@@ -166,4 +165,3 @@ public:
 };
 
 
-#endif //DATASTRUCT_FORWARDLISTONARRAY_H

@@ -1,5 +1,4 @@
-#ifndef DATASTRUCT_STACKONARRAY_H
-#define DATASTRUCT_STACKONARRAY_H
+#pragma once
 
 
 #include <ostream>
@@ -137,4 +136,3 @@ public:
 };
 
 
-#endif //DATASTRUCT_STACKONARRAY_H

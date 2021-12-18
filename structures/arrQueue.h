@@ -1,5 +1,4 @@
-#ifndef DATASTRUCT_ARRQUEUE_H
-#define DATASTRUCT_ARRQUEUE_H
+#pragma once
 
 #include "stdexcept"
 
@@ -82,4 +81,3 @@ public:
     }
 };
 
-#endif //DATASTRUCT_ARRQUEUE_H

@@ -1,5 +1,4 @@
-#ifndef STACK_NODES__QUEUEONNODES_H_
-#define STACK_NODES__QUEUEONNODES_H_
+#pragma once
 
 template<typename T>
 struct Node {
@@ -63,4 +62,4 @@ class QueueOnNodes {
   }
 };
 
-#endif //STACK_NODES__QUEUEONNODES_H_
+

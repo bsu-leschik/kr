@@ -1,5 +1,4 @@
-#ifndef DATASTRUCT_DEQUEONARRAY_H
-#define DATASTRUCT_DEQUEONARRAY_H
+#pragma once
 
 #include "stdexcept"
 #include "cassert"
@@ -113,4 +112,4 @@ public:
         delete[] mainArr_;
     }
 };
-#endif //DATASTRUCT_DEQUEONARRAY_H
+

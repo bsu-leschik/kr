@@ -1,5 +1,4 @@
-#ifndef DEQUE__DEQUE_H_
-#define DEQUE__DEQUE_H_
+#pragma once
 
 template<typename T>
 struct Node {
@@ -82,4 +81,4 @@ class Deque {
   }
 };
 
-#endif //DEQUE__DEQUE_H_
+

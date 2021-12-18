@@ -1,5 +1,4 @@
-#ifndef STACK_NODES__STACKONNODES_H_
-#define STACK_NODES__STACKONNODES_H_
+#pragma once
 
 template<typename T>
 struct Node {
@@ -43,4 +42,3 @@ class StackOnNodes {
   }
 };
 
-#endif //STACK_NODES__STACKONNODES_H_

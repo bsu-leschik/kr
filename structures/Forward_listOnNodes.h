@@ -1,5 +1,4 @@
-#ifndef STACK_NODES__FORWARD_LISTONNODES_H_
-#define STACK_NODES__FORWARD_LISTONNODES_H_
+#pragma once
 
 template<typename T>
 struct Node {
@@ -116,4 +115,3 @@ class Forward_listOnNodes {
   }
 };
 
-#endif //STACK_NODES__FORWARD_LISTONNODES_H_
